@@ -1,0 +1,10 @@
+`ifndef INCLUDE
+`define INCLUDE
+
+// `define TESTING
+
+`define INS_START_ADDRESS  (32'h0040_0000)
+`define DATA_START_ADDRESS (32'h1001_0000)
+`define DATA_END_ADDRESS (`DATA_START_ADDRESS + 127) 
+
+`endif
